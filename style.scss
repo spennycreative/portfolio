@@ -1,0 +1,53 @@
+/*!
+Theme Name: spennycreative3
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: spennycreative3
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+spennycreative3 is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import "includes/_wordpress.scss";
+
+//COMPONENTS
+
+@import "includes/components/_body.scss";
+@import "includes/components/_media-page.scss";
+@import "includes/components/_single-post-page.scss";
+@import "includes/components/_hero.scss";
+@import "includes/components/_side-by-side.scss";
+@import "includes/components/_foo-gallery.scss";
+@import "includes/components/_cards.scss";
+@import "includes/components/_comments.scss";
+@import "includes/components/_category-post-page.scss";
+@import "includes/components/_404.scss";
+@import "includes/components/_search.scss";
+@import "includes/components/_profile.scss";
+@import "includes/components/_mytricks.scss";
+@import "includes/components/_contact-area.scss";
+
+//MODULES
+
+@import "includes/modules/_top-bar.scss";
+@import "includes/modules/_header.scss";
+@import "includes/modules/_footer.scss";
+@import "includes/modules/_sidebar.scss";
+
+//UTILITIES
+
+@import "includes/utilities/_settings.scss";
+
+

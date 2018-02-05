@@ -1,0 +1,33 @@
+#secondary {
+  padding: 0 15px;
+
+  li {
+    margin-left: -4em;
+    text-decoration: none;
+  }
+
+  a {
+    color: #F7941D;
+    text-decoration: none;
+    font-weight: bolder;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    width: 30%;
+    float: left;
+    position: fixed;
+    padding: 25px;
+    border-left: 1px solid rgba(0,0,0,.5);
+    padding-top: 4.75em;
+    // background-color: rgba(0,0,0,.125);
+  }
+
+  @media screen and (min-width: 1250px) {
+    padding-left: 4em;
+    padding-top: 4.5em;
+  }
+}

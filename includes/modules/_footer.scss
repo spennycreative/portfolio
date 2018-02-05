@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  // box-shadow: 0 0 40px -5px rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.75);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,.75), #444); 
+  background-image: linear-gradient(to bottom,rgba(0,0,0,.75), #444); 
+  color: white;
+}
+
+.footer-items {
+
+  img {
+    background-color: #F7941D;
+    padding: .125em;
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .1s ease-in-out;
+
+    @media screen and (min-width: 800px) {
+      height: 75px;
+    }
+
+    &:hover {
+      padding: 0;
+      transition: all .1s ease-in-out;
+    }
+  }
+}

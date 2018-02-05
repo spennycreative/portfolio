@@ -1,0 +1,39 @@
+#secondary-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding-right: 1.25em;
+    background-color: rgba(0,0,0,.75);
+    background-image: -webkit-linear-gradient(top, #444, rgba(0,0,0,.75)); 
+    background-image: linear-gradient(to bottom,#444, rgba(0,0,0,.75)); 
+
+    @media screen and (max-width:799px) {
+      display: none;
+    }
+
+    li#menu-item-281 {
+      a {
+        text-decoration: none;
+        color: white;
+        cursor: default !important;
+      }
+    }
+
+    li {
+      padding: 5px;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: #F7941D;
+          text-decoration: underline;
+        }
+      }
+    }
+}

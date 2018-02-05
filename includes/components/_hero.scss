@@ -1,0 +1,103 @@
+.hero {
+  // background-color: #F7941D;
+  background-color: rgba(0,0,0,.75);
+  background-image: -webkit-linear-gradient(top, #444, rgba(0,0,0,.75)); 
+  background-image: linear-gradient(to bottom,#444, rgba(0,0,0,.75)); 
+  padding: 100px 0;
+  margin-top: 0;
+}
+
+.hero-content {
+  padding: 50px 25px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+
+  h1 {
+    color: white;
+    text-shadow: 0 2px 2px black;
+  }
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 25px;
+  margin-top: -6em;
+  text-align: center;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: #F7941D;
+    border: 1px solid #F7941D;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: all .3s ease-in-out;
+    text-shadow: 0 1px 2px black;
+
+    &:hover {
+      background-color: rgba(255,255,255,.075);
+      box-shadow: 0 0 7px 2px rgba(0,0,0,.75);
+      transition: all .3s ease-in-out;
+    }
+  }
+}
+
+.fresh-from-blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: -1.5em;
+  margin-bottom: 2em;
+  padding: 0 28px;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    margin-top: -2.25em;
+  }
+  
+    a {
+      font-weight: bolder;
+      text-shadow: 0 1px 2px black;
+      background-color: rgba(255,255,255,.075);
+      text-align: center;
+      text-decoration: none;
+      color: #F7941D;
+      border: 1px solid #F7941D;
+      border-radius: 5px;
+      padding: 10px 75px;
+      box-shadow: 0 0 7px 2px rgba(0,0,0,.75);
+      transition: all .3s ease-in-out;
+
+      @media screen and (min-width: 600px) {
+        padding: 10px 120px;
+      }
+
+    &:hover {
+      box-shadow: none;
+      transition: all .3s ease-in-out;
+    }
+  }
+}
+
+.hero-info-banner {
+  text-align: center;
+
+  img {
+    width: 90%;
+    margin: 25px;
+
+    @media screen and (min-width: 40.5em) {
+       max-width: 1100px;
+       padding: 25px 10px;
+    }
+  }
+}
